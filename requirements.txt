@@ -43,8 +43,8 @@ rich==13.9.3
 rsa==4.9
 scipy==1.13.1
 six==1.16.0
-tensorflow==2.13.1
-tensorflow-estimator==2.13.1
+tensorflow
+tensorflow-estimator
 termcolor==2.5.0
 typing_extensions==4.5.0
 urllib3==2.2.3
