@@ -9,6 +9,7 @@ from flask import Flask, request, render_template
 
 import numpy as np
 import tensorflow as tf
+tf.config.set_visible_devices([], 'GPU')
 from tensorflow.keras.layers import Conv1D, MaxPooling1D, Dropout, Flatten, Dense, Input
 from tensorflow.keras import regularizers, Model
 from itertools import product
