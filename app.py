@@ -5,8 +5,9 @@ Created on Mon Oct 28 14:07:18 2024
 @author: Lab
 """
 
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'  # Only show warnings and errors
 from flask import Flask, request, render_template
-
 import numpy as np
 import tensorflow as tf
 tf.config.set_visible_devices([], 'GPU')
