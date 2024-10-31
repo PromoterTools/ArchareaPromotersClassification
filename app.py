@@ -90,7 +90,7 @@ def predict_promoter(sequence, model, k):
 sequence_length = 100
 k=6
 input_shape = (4**k, 1)
-model_weights_path = 'D:/Archea Models/Project/model/ArcheaModel_CNN_30oCt.weights.h5'
+model_weights_path = 'model/ArcheaModel_CNN_30oCt.weights.h5'
     
 # Load model and weights
 model = get_model(input_shape)
